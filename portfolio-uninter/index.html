@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathas Walbert</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Inicio do Header-->
+        <header id="home">
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#about-me">Formação</a></li>
+                <li><a href="#contact-me">Contatos</a></li>
+            </ul>
+        </header>
+    <!--Fim do Header-->
+
+    <!--Inicio Hero-->
+    <section class="section-hero" id="hero">
+
+        <div>
+            <span class="title-hero">Desenvolvedor Web | Mobile</span>
+            <p class="text-hero">Olá! Sou um desenvolvedor front-end especializado em React JS e aplicações mobile. Tenho paixão por transformar ideias em interfaces intuitivas, rápidas e responsivas. Com foco na experiência do usuário e código limpo, entrego soluções digitais modernas que funcionam em todos os dispositivos. Atualmente, estou focado em criar aplicações que realmente resolvem problemas — seja para startups, negócios locais ou projetos pessoais.</p>
+        </div>
+        
+        <div>
+            <figure>
+                <img class="img-jonathas" alt="Imagem Jonathas" src="src/assets/jonathas.png" />
+            </figure>
+        </div>
+        
+        
+    </section>
+    <!--Fim Hero-->
+
+    <!--Inicio Projetos-->
+    <section class="section-projects" id="projects">
+        <div>
+            <div>
+                <span>Portfólio - Original</span>
+            <p>Website desenvolvimento como portfólio, página original feito com react, tailwind.</p>
+            <a href="https://jonathaswalbert.vercel.app/" target="_blank" >Abrir projeto</a>
+            </div>
+            
+        </div>
+        <div>
+            <span>Rose Burguer</span>
+            <p>Site desenvolvido para uma lanchonete para mostrar o cardapio. Foi utilizado a API do Google Maps para mostrar a localização da lanchonete e um botão para redirecionar para o whatsapp. *Projeto ainda em desenvolvimento*</p>
+            <a href="https://rose-burguer-landingpage.vercel.app/" target="_blank">Abrir projeto</a>
+        </div>
+        <div>
+            <span>MovieApp</span>
+            <p>Um app que busca uma lista de 10 filmes em uma API e exibe informações. Neste projeto também incluir uma página que mostra os filmes favoritados.</p>
+            <a href="https://movies-flax-nine.vercel.app/" target="_blank">Abrir projeto</a>
+        </div>
+        <div>
+            <span>Cronometro App</span>
+            <p>Projeto simples que simula um cronometro. Feito com Expo.</p>
+            <a href="https://github.com/JonathasWalbert/cronometro-app" target="_blank">Abrir projeto</a>
+        </div>
+    </section>
+      <!--Fim Projetos-->
+
+    <!--Inicio "Sobre mim"-->
+    <section class="section-about-me" id="about-me">
+        <div>
+            <span><strong>Nome: </strong>Jonathas Walbert</span>
+            <span><strong>Graduação: </strong>Análise e desenvolvimento de sistemas - Cursando</span>
+            <span><strong>Graduação: </strong>Engenheiro da computação - Concluído</span>
+            <span><strong>Pós-Graduação: </strong>Desenvolvimento Mobile - Concluído</span>
+            <span><strong>Pós-Graduação: </strong>Estrutura e gestão de redes de computadores - Concluído</span>
+            <span><strong>Idioma: </strong>Inglês - Intermediário</span>
+        </div>
+    </section>
+      <!--Fim "Sobre mim"-->
+
+    <!--Inicio "Sobre mim"-->
+    <section class="section-contact-me" id="contact-me">
+        <span>Vamos conversar ?</span>
+        <p>Tem alguma ideia, projeto ou dúvida? Fique à vontade para me enviar uma mensagem </p>
+
+        <form id="whatsapp-form">
+            <p>Seu nome</p>
+            <input id="nome" type="text"/>
+
+            <p>Sua mensagem</p>
+            <textarea id="mensagem" class="input-text"></textarea>
+            
+            <button type="submit" class="button" id="button-mensage">Enviar mensagem</button>
+        </form>
+
+            
+
+    </section>
+      <!--Fim "Sobre mim"-->
+
+    <!--Inicio do Rodape-->
+    <footer>
+        <p>© 2025 - Todos os direitos reservados</p>
+        <p>Desenvolvido por Jonathas Walbert</p>
+    </footer>
+    <!--Fim do Rodape-->
+    <script src="script.js"></script>
+</body>
+</html>

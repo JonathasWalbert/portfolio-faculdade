@@ -1,0 +1,192 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    a{
+        color: #DDD;
+    }
+}
+
+header{
+    color: #DDD;
+    padding: 6px;
+    height: 40px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #150d5e;
+    width: 100%;
+    position: fixed;
+}
+
+ul{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+
+}
+
+
+.section-hero{
+    display: flex;
+    color: #cccaca;
+    gap: 12px;
+    padding: 50px 18px;
+    padding-right: 18px;
+    padding-left: 18px;
+    justify-content: center;
+    align-items: center;
+    background-color: #133d96;
+    
+    
+        div{
+        max-width: 1024px;
+        padding: 12px;
+        gap: 18px;
+
+        p{
+            margin-top: 12px;
+            max-width: 612px;
+        }  
+    }
+
+}
+
+.title-hero{
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text-hero{
+    font-size: 14px;
+}
+
+.img-jonathas{
+    height: 512px;
+}
+
+.section-projects{
+    background-color: #133d96;
+    color: #DDD;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        border: 1px;
+        border-color: #FFF;
+        border-radius: 8px;
+        background-color: #150d5e;
+        padding: 12px;
+        max-width: 280px;
+        box-shadow: #000;
+    }
+    
+    span{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 500;
+        margin: 8px 0px;
+        line-height: 18px;
+    }
+    a{
+        display: flex;
+        font-size: 16px;
+        justify-content: center;
+        
+    }
+    
+}
+
+
+
+.section-about-me{
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #133d96;
+
+   div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #cccaca;
+   }
+}
+
+.section-contact-me{
+    background-color: #133d96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #cccaca;
+    gap: 8px;
+    padding: 18px 0px;
+    font-family: "Orbitron", sans-serif;
+    
+    span{
+        font-size: 22px;
+        font-weight: 500;
+        color: #DDD;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+        gap: 8px;
+        p{
+            font-size: 18px;
+        }
+    }
+
+    input{
+        width: 512px;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    textarea{
+        padding: 8px;
+        font-size: 16px;
+    }
+   
+}
+
+.input-text{
+    height: 64px;
+    max-lines: 8;
+}
+
+.button{
+    height: 45px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 12px;
+}
+
+footer{
+    background-color: #150d5e;
+    text-align: center;
+    padding: 18px;
+    
+    p{
+        font-size: 12px;
+        color: #DDD;
+        
+    }
+}
